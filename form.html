@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-image: url(simple.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        div.main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width:350px;
+        }
+        
+        
+    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Form</h1><br><br>
+        <form action="backened.php">
+            <label>Name:</label><br>
+            <input type="text" id="name" placeholder="Your Full Name"><br><br>
+            <label>Branch:</label><br>
+            <input type="text" id="branch"><br><br>
+            <label>Roll No.:</label><br>
+            <input type="number" id="num"><br><br>
+            <label>Date Of Birth:</label><br>
+            <input type="date"><br><br>
+            <label>Contact No.</label><br>
+            <input type="number" id="contact"><br><br>
+            <label>Email ID:</label><BR>
+            <input type="email" id="email"><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+
+</body>
+
+</html>
